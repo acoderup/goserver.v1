@@ -3,7 +3,7 @@ package transact
 import (
 	"fmt"
 
-	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderup/goserver.v1/core/logger"
 )
 
 var transactionHandlerPool = make(map[TransType]TransHandler)

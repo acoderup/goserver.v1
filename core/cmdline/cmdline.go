@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/acoderupacoderup/goserver.v1/core/module"
+	"github.com/acoderup/goserver.v1/core/module"
 )
 
 var cmdpool = make(map[string]cmdExecuter)

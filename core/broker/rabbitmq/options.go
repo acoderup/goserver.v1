@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"context"
 
-	"github.com/acoderupacoderup/goserver.v1/core/broker"
+	"github.com/acoderup/goserver.v1/core/broker"
 )
 
 /*

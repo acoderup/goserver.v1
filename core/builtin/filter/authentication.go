@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/acoderupacoderup/goserver.v1/core/builtin/protocol"
-	"github.com/acoderupacoderup/goserver.v1/core/logger"
-	"github.com/acoderupacoderup/goserver.v1/core/netlib"
+	"github.com/acoderup/goserver.v1/core/builtin/protocol"
+	"github.com/acoderup/goserver.v1/core/logger"
+	"github.com/acoderup/goserver.v1/core/netlib"
 )
 
 var (

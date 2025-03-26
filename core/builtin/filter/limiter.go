@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"github.com/acoderupacoderup/goserver.v1/core/netlib"
+	"github.com/acoderup/goserver.v1/core/netlib"
 	"golang.org/x/time/rate"
 )
 

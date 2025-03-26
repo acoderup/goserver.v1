@@ -3,7 +3,7 @@ package timer
 import (
 	"container/heap"
 
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core/basic"
 )
 
 type stopTimerCommand struct {

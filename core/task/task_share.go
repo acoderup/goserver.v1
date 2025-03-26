@@ -1,7 +1,7 @@
 package task
 
 import (
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core/basic"
 	"sync"
 	"sync/atomic"
 )

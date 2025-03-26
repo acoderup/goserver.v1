@@ -3,8 +3,8 @@ package task
 import (
 	"errors"
 
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
-	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core/logger"
 )
 
 var (

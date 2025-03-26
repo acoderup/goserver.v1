@@ -4,7 +4,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/acoderupacoderup/goserver.v1/core/container"
+	"github.com/acoderup/goserver.v1/core/container"
 )
 
 //  Be similar to (Windows, Thread Local Storage)

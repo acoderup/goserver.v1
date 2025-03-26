@@ -1,6 +1,6 @@
 package basic
 
-import "github.com/acoderupacoderup/goserver.v1/core/container"
+import "github.com/acoderup/goserver.v1/core/container"
 
 type ownCommand struct {
 	c *Object

@@ -3,7 +3,7 @@ package cmdline
 import (
 	"fmt"
 
-	"github.com/acoderupacoderup/goserver.v1/core/module"
+	"github.com/acoderup/goserver.v1/core/module"
 )
 
 type exitExecuter struct {

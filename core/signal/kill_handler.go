@@ -3,8 +3,8 @@ package signal
 import (
 	"os"
 
-	"github.com/acoderupacoderup/goserver.v1/core/logger"
-	"github.com/acoderupacoderup/goserver.v1/core/module"
+	"github.com/acoderup/goserver.v1/core/logger"
+	"github.com/acoderup/goserver.v1/core/module"
 )
 
 type KillSignalHandler struct {

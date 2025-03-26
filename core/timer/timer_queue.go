@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core/basic"
 )
 
 type TimerEntity struct {

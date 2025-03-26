@@ -4,8 +4,8 @@ package transact
 import (
 	"time"
 
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
-	"github.com/acoderupacoderup/goserver.v1/core/timer"
+	"github.com/acoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core/timer"
 	"sync"
 	"sync/atomic"
 )

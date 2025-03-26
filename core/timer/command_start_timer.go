@@ -4,8 +4,8 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/acoderupacoderup/goserver.v1/core"
-	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderup/goserver.v1/core"
+	"github.com/acoderup/goserver.v1/core/basic"
 )
 
 type startTimerCommand struct {
