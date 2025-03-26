@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/acoderup/goserver/core/netlib"
+	"github.com/acoderupacoderup/goserver.v1/core/netlib"
 )
 
 var (

@@ -6,12 +6,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/acoderup/goserver/core"
-	"github.com/acoderup/goserver/core/basic"
-	"github.com/acoderup/goserver/core/container"
-	"github.com/acoderup/goserver/core/container/recycler"
-	"github.com/acoderup/goserver/core/logger"
-	"github.com/acoderup/goserver/core/profile"
+	"github.com/acoderupacoderup/goserver.v1/core"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core/container"
+	"github.com/acoderupacoderup/goserver.v1/core/container/recycler"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/profile"
 )
 
 type Callable interface {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/acoderup/goserver/core/basic"
-	"github.com/acoderup/goserver/core/utils"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core/utils"
 )
 
 const (

@@ -1,7 +1,7 @@
 package transact
 
 import (
-	"github.com/acoderup/goserver/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
 )
 
 type transactResumeCommand struct {

@@ -1,7 +1,7 @@
 package transact
 
 import (
-	"github.com/acoderup/goserver/core/timer"
+	"github.com/acoderupacoderup/goserver.v1/core/timer"
 )
 
 type transactTimerAction struct {

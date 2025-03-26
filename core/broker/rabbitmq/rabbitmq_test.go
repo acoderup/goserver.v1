@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/acoderup/goserver/core/broker"
-	"github.com/acoderup/goserver/core/broker/rabbitmq"
+	"github.com/acoderupacoderup/goserver.v1/core/broker"
+	"github.com/acoderupacoderup/goserver.v1/core/broker/rabbitmq"
 )
 
 func MyHandler(e broker.Event) error {

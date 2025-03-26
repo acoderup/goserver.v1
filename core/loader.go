@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/acoderup/goserver/core/logger"
-	"github.com/acoderup/goserver/core/viperx"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/viperx"
 )
 
 var packages = make(map[string]Package)

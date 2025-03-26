@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"context"
 
-	"github.com/acoderup/goserver/core/broker"
+	"github.com/acoderupacoderup/goserver.v1/core/broker"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

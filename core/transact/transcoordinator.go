@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/acoderup/goserver/core"
-	"github.com/acoderup/goserver/core/logger"
-	"github.com/acoderup/goserver/core/module"
-	"github.com/acoderup/goserver/core/timer"
-	"github.com/acoderup/goserver/core/utils"
+	"github.com/acoderupacoderup/goserver.v1/core"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/module"
+	"github.com/acoderupacoderup/goserver.v1/core/timer"
+	"github.com/acoderupacoderup/goserver.v1/core/utils"
 )
 
 var (

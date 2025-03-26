@@ -3,8 +3,8 @@ package signal
 import (
 	"os"
 
-	"github.com/acoderup/goserver/core/logger"
-	"github.com/acoderup/goserver/core/module"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/module"
 )
 
 type InterruptSignalHandler struct {

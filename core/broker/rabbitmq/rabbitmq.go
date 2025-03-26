@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/acoderup/goserver/core/broker"
+	"github.com/acoderupacoderup/goserver.v1/core/broker"
 	"github.com/streadway/amqp"
 )
 

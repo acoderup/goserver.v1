@@ -2,8 +2,8 @@
 package transact
 
 import (
-	"github.com/acoderup/goserver/core"
-	"github.com/acoderup/goserver/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
 )
 
 var Config = Configuration{}

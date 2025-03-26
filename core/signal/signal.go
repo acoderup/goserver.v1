@@ -4,12 +4,12 @@ package signal
 import (
 	"errors"
 	"fmt"
-	"github.com/acoderup/goserver/core/utils"
+	"github.com/acoderupacoderup/goserver.v1/core/utils"
 	"os"
 	"os/signal"
 	"sync"
 
-	"github.com/acoderup/goserver/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
 )
 
 var SignalHandlerModule = NewSignalHandler()

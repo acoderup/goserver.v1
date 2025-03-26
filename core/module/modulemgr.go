@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"fmt"
-	"github.com/acoderup/goserver/core"
-	"github.com/acoderup/goserver/core/basic"
-	"github.com/acoderup/goserver/core/logger"
-	"github.com/acoderup/goserver/core/profile"
-	"github.com/acoderup/goserver/core/utils"
+	"github.com/acoderupacoderup/goserver.v1/core"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/profile"
+	"github.com/acoderupacoderup/goserver.v1/core/utils"
 )
 
 const (

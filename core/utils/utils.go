@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/acoderup/goserver/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
 	"runtime"
 	"time"
 )

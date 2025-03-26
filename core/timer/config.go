@@ -3,8 +3,8 @@ package timer
 import (
 	"time"
 
-	"github.com/acoderup/goserver/core"
-	"github.com/acoderup/goserver/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
 )
 
 var Config = Configuration{}

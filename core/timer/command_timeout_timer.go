@@ -2,8 +2,8 @@ package timer
 
 import (
 	"fmt"
-	"github.com/acoderup/goserver/core/basic"
-	"github.com/acoderup/goserver/core/profile"
+	"github.com/acoderupacoderup/goserver.v1/core/basic"
+	"github.com/acoderupacoderup/goserver.v1/core/profile"
 	"reflect"
 )
 

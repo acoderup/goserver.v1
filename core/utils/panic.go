@@ -7,7 +7,7 @@ import (
 
 	"encoding/json"
 	"fmt"
-	"github.com/acoderup/goserver/core/logger"
+	"github.com/acoderupacoderup/goserver.v1/core/logger"
 	"sync"
 	"sync/atomic"
 	"time"

@@ -1,7 +1,7 @@
 package profile
 
 import (
-	"github.com/acoderup/goserver/core"
+	"github.com/acoderupacoderup/goserver.v1/core"
 )
 
 var Config = Configuration{}
