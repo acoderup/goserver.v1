@@ -1,4 +1,4 @@
-module goerver.v1
+module github.com/acoderup/goserver.v1
 
 go 1.24.0
 
@@ -18,6 +18,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/jonboulle/clockwork v0.5.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/klauspost/reedsolomon v1.12.4 // indirect
 	github.com/lestrrat-go/strftime v1.1.0 // indirect
