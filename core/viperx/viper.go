@@ -51,7 +51,28 @@ func GetViper(name, filetype string) *viper.Viper {
 	}
 	return vp
 }
+func GetViperByString() *viper.Viper {
+	//buf, err := ReadFile(name, filetype)
+	//if err != nil {
+	//	panic(fmt.Sprintf("Error while reading config file %s: %v", name+filetype, err))
+	//}
+	name := "config"
+	filetype := "json"
+	buf := []byte(data)
+	if configFileEH != nil {
+		if configFileEH.IsCipherText(buf) {
+			buf = configFileEH.Decrypt(buf)
+		}
+	}
 
+	vp := viper.New()
+	vp.SetConfigName(name)
+	vp.SetConfigType(filetype)
+	if err := vp.ReadConfig(bytes.NewReader(buf)); err != nil {
+		panic(fmt.Sprintf("Error while reading config file %s: %v", name+filetype, err))
+	}
+	return vp
+}
 func ReadFile(name, filetype string) ([]byte, error) {
 	for _, v := range paths {
 		file := fmt.Sprintf("%s/%s.%s", v, name, filetype)

@@ -12,7 +12,8 @@ var (
 )
 
 func init() {
-	Logger, err = seelog.LoggerFromConfigAsFile("logger.xml")
+	//Logger, err = seelog.LoggerFromConfigAsFile("logger.xml")
+	Logger, err = seelog.LoggerFromConfigAsString(data)
 	if err == nil {
 		seelog.ReplaceLogger(Logger)
 	} else {

@@ -94,6 +94,55 @@ func LoadPackages(configFile string) {
 	}
 }
 
+// LoadPackages 加载功能包
+func LoadPackagesAuto() {
+	//val := strings.Split(configFile, ".")
+	//if len(val) != 2 {
+	//	panic("config file name error")
+	//}
+	configFile := "config.json"
+	vp := viperx.GetViperByString()
+
+	var err error
+	var notFoundConfig []string
+	var notFoundPackage []string
+	for k := range vp.AllSettings() {
+		if _, ok := packages[k]; !ok {
+			notFoundPackage = append(notFoundPackage, k)
+			continue
+		}
+
+		name := k
+		pkg := packages[k]
+		if err = vp.UnmarshalKey(k, pkg); err != nil {
+			logger.Logger.Errorf("Package %s: Error while unmarshalling from config file %s: %v", name, configFile, err)
+			continue
+		}
+
+		if err = pkg.Init(); err != nil {
+			logger.Logger.Errorf("Package %s: Error while initializing from config file %s: %v", name, configFile, err)
+			continue
+		}
+
+		packagesLoaded[pkg.Name()] = true
+		logger.Logger.Infof("package [%16s] load success", pkg.Name())
+	}
+
+	for k := range packages {
+		if !IsPackageLoaded(k) {
+			notFoundConfig = append(notFoundConfig, k)
+		}
+	}
+
+	if len(notFoundConfig) > 0 {
+		logger.Logger.Warnf("package load success, not found config: %v", notFoundConfig)
+	}
+
+	if len(notFoundPackage) > 0 {
+		logger.Logger.Warnf("package load success, not found package: %v", notFoundPackage)
+	}
+}
+
 // ClosePackages 关闭功能包
 func ClosePackages() {
 	for _, pkg := range packages {
